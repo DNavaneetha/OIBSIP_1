@@ -1,0 +1,33 @@
+.calculator {
+	background-color: #c20b7c;
+	border: 10px solid #ccc;
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.display {
+	background-color: #ffff;
+	border: 10px solid #ccc;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.keys {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+}
+
+button {
+	background-color: #e6e6e6;
+	border: 10px solid #ccc;
+	padding: 5px;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+button.operator {
+	background-color: #168fc7;
+	color: #fff;
+}
